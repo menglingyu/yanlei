@@ -1,0 +1,31 @@
+#publising-body{
+    .g-article-box{
+        .m-article{
+            h2{
+                font-size: px2rem(27px);
+                line-height: px2rem(35px);
+                margin-bottom: px2rem(40px);
+                .u-artist-name{
+                    font-weight: 200;
+                    font-family:STSongti-SC-Regular;
+                    font-size:px2rem(21px);
+                    line-height: px2rem(30px);
+                    color:#000000;
+                    line-height:px2rem(28px);
+                }
+                p{
+                    line-height: px2rem(40px);
+                }
+            }
+            p{
+                font-weight: 200;
+                opacity:0.8;
+                font-family:STSongti-SC-Regular;
+                font-size:px2rem(13px);
+                color:#000000;
+                line-height:px2rem(20px);
+                text-align:left;
+            }
+        }
+    }
+}

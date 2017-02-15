@@ -1,0 +1,117 @@
+.distance-top{
+    padding-top: px2rem(70px)
+}
+@mixin distance-top {
+    padding-top: px2rem(70px)
+}
+.g-main-container{
+    .c-box:nth-child(2n+2){
+        @include distance-top;
+    }
+}
+.art-series-works-body{
+    min-height: 100%;
+    position: relative;
+    .g-header{
+
+    }
+    .container-fluid{
+        padding-top: px2rem(62px);
+        padding-bottom: px2rem(40px);
+        .m-second-title{
+            margin-top: px2rem(19px);
+            margin-bottom: px2rem(40px);
+            text-align: center;
+            border: 1px solid #000000;
+            font-size: 0px;
+            div{
+
+                display: inline-block;
+                padding: px2rem(13px) px2rem(8px);
+                font-weight: 200;
+                font-family:STSongti SC;
+                font-size: px2rem(14px);
+                color:#000000;
+                width: 50%;
+                letter-spacing:-0.5px;
+            }
+        }
+        .z-this-page{
+            background-color: #000000;
+            color: #ffffff!important;
+        }
+        .m-series-title{
+              margin-left: -$grid-mobile;
+              margin-right: -$grid-mobile;
+              margin-top: 10px;
+              margin-bottom: 10px;
+              .u-series-title{
+                background: url(../images/1px.png) repeat-x center center;
+                background-size: 1%;
+                width: 100%;
+                height: px2rem(50px);
+                line-height: px2rem(50px);
+                .u-line-num{
+                    text-align: center;
+                    display: inline-block;
+                    width: px2rem(20px);
+                    background-color: #f2f2f2;
+                    height: px2rem(50px);
+                    line-height: px2rem(50px);
+                    margin-left: px2rem(10px);
+                    margin-right: px2rem(10px);
+                    font-family:STSongti-SC-Bold;
+                    font-size: px2rem(24px);
+                }
+                .u-line-img{
+                    display: inline-block;
+                    padding: 0 px2rem(8px);
+                    background-color: #f2f2f2;
+                    margin-left: px2rem(10px);
+                    margin-right: px2rem(10px);
+                    img{
+                        /* height: px2rem(50px); */
+                        max-width: 130px;
+                        max-height: px2rem(50px);
+                    }
+                }
+              }
+            }
+        .g-main-container{
+            padding-top: px2rem(40px);
+            .c-box{
+                margin-bottom:80px;
+                h4{
+                font-size:px2rem(15px);
+                color:#000000;
+                line-height:px2rem(18px);
+                margin-top: px2rem(14px);
+                font-family:STSongti-SC-Regular;
+                    p{
+
+                    }
+                }
+                .works-text{
+                    margin-top: px2rem(8px);
+                    margin-right: px2rem(-20px);
+                    font-family:TimesNewRomanPSMT;
+                    font-weight: 200;
+                    font-size:12px;
+                    color:#6d6d6d;
+                    letter-spacing: -0.6px;
+                    line-height:px2rem(18px);
+                }
+            }
+        }
+
+
+        .box{
+            img{
+                width: 100%;
+            }
+        }
+    }
+    .g-footer{
+
+    }
+}

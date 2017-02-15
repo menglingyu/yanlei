@@ -1,0 +1,11 @@
+.g-footer{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    padding:10px $grid-mobile;
+    .m-footer{
+        font-family:PingFang SC;
+        font-weight: 200px;
+        color: #ccc;
+    }
+}
